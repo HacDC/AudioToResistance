@@ -12,7 +12,7 @@ G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.19685 ( retract )
 
 G00 X1.77000 Y0.62800 ( rapid move to begin. )
-G01 Z0.04921 F2.95276 ( plunge. )
+G01 Z0.04921 F1.96850 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 X1.77000 Y0.62800
 X1.77000 Y0.62500
@@ -1032,7 +1032,7 @@ G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.19685 ( retract )
 
 G00 X2.17000 Y0.62800 ( rapid move to begin. )
-G01 Z0.04921 F2.95276 ( plunge. )
+G01 Z0.04921 F1.96850 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 X2.17000 Y0.62800
 X2.17000 Y0.62500
@@ -2382,7 +2382,7 @@ G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.19685 ( retract )
 
 G00 X1.06900 Y0.52600 ( rapid move to begin. )
-G01 Z0.04921 F2.95276 ( plunge. )
+G01 Z0.04921 F1.96850 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 X1.06900 Y0.52600
 X1.07000 Y0.52600
@@ -3627,7 +3627,7 @@ G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.19685 ( retract )
 
 G00 X0.37300 Y0.43100 ( rapid move to begin. )
-G01 Z0.04921 F2.95276 ( plunge. )
+G01 Z0.04921 F1.96850 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 X0.37300 Y0.43100
 X0.37300 Y0.36200
@@ -3747,7 +3747,7 @@ G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.19685 ( retract )
 
 G00 X0.37300 Y0.33100 ( rapid move to begin. )
-G01 Z0.04921 F2.95276 ( plunge. )
+G01 Z0.04921 F1.96850 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 X0.37300 Y0.33100
 X0.37300 Y0.22800
@@ -3803,7 +3803,7 @@ G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 G00 Z0.19685 ( retract )
 
 G00 X1.07000 Y0.33100 ( rapid move to begin. )
-G01 Z0.04921 F2.95276 ( plunge. )
+G01 Z0.04921 F1.96850 ( plunge. )
 G04 P0 ( dwell for no time -- G64 should not smooth over this point )
 X1.07000 Y0.33100
 X1.07000 Y0.32500

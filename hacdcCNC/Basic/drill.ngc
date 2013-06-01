@@ -12,7 +12,7 @@ G00 Z0.19685 ( Retract )
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.03000 inch)
-M0      ( Temporary machine stop.      )
+
 M3      ( Spindle on clockwise.        )
 
 G81 R0.19685 Z0.00000 F0.98425 X1.50000 Y0.20000
@@ -30,7 +30,7 @@ G00 Z0.19685 ( Retract )
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.02000 inch)
-M0      ( Temporary machine stop.      )
+
 M3      ( Spindle on clockwise.        )
 
 G81 R0.19685 Z0.00000 F0.98425 X1.40000 Y0.50000
@@ -42,7 +42,7 @@ G00 Z0.19685 ( Retract )
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.03800 inch)
-M0      ( Temporary machine stop.      )
+
 M3      ( Spindle on clockwise.        )
 
 G81 R0.19685 Z0.00000 F0.98425 X0.80000 Y0.30000
@@ -58,7 +58,7 @@ G00 Z0.19685 ( Retract )
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.04200 inch)
-M0      ( Temporary machine stop.      )
+
 M3      ( Spindle on clockwise.        )
 
 G81 R0.19685 Z0.00000 F0.98425 X1.90000 Y0.20000

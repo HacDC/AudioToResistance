@@ -14,16 +14,16 @@ outline-width = 0.0433071		#1.10 mm bit.
 offset=0.0433071		#1.10 mm bit.
 zwork=0.0492126		#1.25mm above table. Boards usually >1.5mm thick.
 zsafe=0.19685			#5mm above table.
-mill-feed=2.95276		#75mm/min. Always go slow here.
+mill-feed=1.9685		#50mm/min. Always go slow here.
 mill-speed=10000
 
 
 # parameters for cutting out boards
 cutter-diameter=0.0433071		#1.10 mm bit.
 zcut=0									#Right on the table.
-cut-feed=2.95276					#75mm/min.
+cut-feed=0.19685					#5mm/min. Going slow because this really should be done in many passes.
 cut-speed=10000
-cut-infeed=0.00393701			#Lowers Z 0.1mm each pass.
+cut-infeed=0.00393701			#Lowers Z 0.1mm each pass. DOES NOT WORK.
 
 
 # drilling parameters
