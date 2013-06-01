@@ -5,15 +5,12 @@ See license.txt for AudioToResistance license conditions.
 mirage335-site.dyndns.org
 
 __Usage__
-
+Audio in at CONN1, audio transformer between CONN1 and CONN2, on/off switching at CONN3. Useful for Push-To-Talk systems.
 
 __Design__
+Placing a 1nF capacitor at input to D1 prevents stray rectification. Use of appropriately valued non-polarized capacitors maximizes VHF/UHF suppression.
 
-
-USA companies provide all parts in these schematics.
-
-__Safety__
-
+Ideally T1 should be a step up transformer.
 
 __Copyright__
 This file is part of AudioToResistance.

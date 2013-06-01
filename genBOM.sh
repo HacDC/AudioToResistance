@@ -1,18 +1,18 @@
 #!/bin/bash
-# This file is part of Mirage335PowerSupply.
+# This file is part of AudioToResistance.
 
-# Mirage335PowerSupply is free software: you can redistribute it and/or modify
+# AudioToResistance is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-# Mirage335PowerSupply is distributed in the hope that it will be useful,
+# AudioToResistance is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
 # You should have received a copy of the GNU General Public License
-# along with Mirage335PowerSupply.  If not, see <http://www.gnu.org/licenses/>.
+# along with AudioToResistance.  If not, see <http://www.gnu.org/licenses/>.
 
 . ubiquitous_bash.sh
 
