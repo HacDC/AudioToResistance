@@ -11,8 +11,8 @@ outline-width = 0.0433071		#1.10 mm bit.
 
 # parameters for isolation routing / engraving / etching
 #offset=1					#voronoi regions (commented out)
-offset=0.0433071		#1.10 mm bit.
-zwork=0.0492126		#1.25mm above table. Boards usually >1.5mm thick.
+offset=0.010				#Small Basic bit. Don't break it!!!
+zwork=-0.019685		#0.5mm below touch off.
 zsafe=0.19685			#5mm above table.
 mill-feed=1.9685		#50mm/min. Always go slow here.
 mill-speed=10000
@@ -21,7 +21,7 @@ mill-speed=10000
 # parameters for cutting out boards
 cutter-diameter=0.0433071		#1.10 mm bit.
 zcut=0									#Right on the table.
-cut-feed=0.19685					#5mm/min. Going slow because this really should be done in many passes.
+cut-feed=0.19685					#25mm/min. Going slow because this really should be done in many passes.
 cut-speed=10000
 cut-infeed=0.00393701			#Lowers Z 0.1mm each pass. DOES NOT WORK.
 
