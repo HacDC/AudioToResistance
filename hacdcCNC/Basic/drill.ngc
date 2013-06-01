@@ -8,7 +8,7 @@ G90     ( Absolute coordinates.        )
 S10000  ( RPM spindle speed.           )
 
 G00 Z0.19685 ( Retract )
-T31
+
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.03000 inch)
@@ -26,7 +26,7 @@ X1.70000 Y0.60000
 
 
 G00 Z0.19685 ( Retract )
-T32
+
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.02000 inch)
@@ -38,7 +38,7 @@ X1.00000 Y0.50000
 
 
 G00 Z0.19685 ( Retract )
-T33
+
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.03800 inch)
@@ -54,7 +54,7 @@ X2.30000 Y0.40000
 
 
 G00 Z0.19685 ( Retract )
-T34
+
 M5      ( Spindle stop.                )
 M6      ( Tool change.                 )
 (MSG, CHANGE TOOL BIT: to drill size 0.04200 inch)
