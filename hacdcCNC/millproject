@@ -7,7 +7,7 @@ drill=PCB.plated-drill.cnc
 
 # The board outline is 10mil wide, no holes
 fill-outline = yes
-outline-width = 0.0433071		#1.10 mm bit.
+outline-width = 0.0334646		#0.85 mm bit.
 
 # parameters for isolation routing / engraving / etching
 #offset=1					#voronoi regions (commented out)
@@ -19,7 +19,7 @@ mill-speed=10000
 
 
 # parameters for cutting out boards
-cutter-diameter=0.0433071		#1.10 mm bit.
+cutter-diameter=0.0334646		#0.85 mm bit.
 zcut=0									#Right on the table.
 cut-feed=0.19685					#25mm/min. Going slow because this really should be done in many passes.
 cut-speed=10000

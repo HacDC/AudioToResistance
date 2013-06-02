@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 600000 500000]
 
 Grid[10000.0 0 0 0]
-Cursor[0 280000 0.000000]
+Cursor[0 290000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -842,7 +842,7 @@ Element["" "AXIAL_LAY 300" "C1" ">47n" 100000 480000 4500 -24500 1 100 ""]
 
 	)
 
-Element["" "AXIAL_LAY 400" "C2" "~150n" 120000 450000 32000 5300 0 100 ""]
+Element["" "AXIAL_LAY 400" "C2" "~150n" 120000 460000 32000 5300 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -878,43 +878,7 @@ Element["" "DIODE_LAY 300" "D1" "-" 110000 450000 5000 22000 3 100 ""]
 
 	)
 
-Element["" "DIODE_LAY 300" "D2" "-" 170000 480000 -5000 -22000 1 100 ""]
-(
-	Attribute("device" "DIODE")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 5000 3000 5600 2000 "1" "1" "square"]
-	Pin[0 -30000 5000 3000 5600 2000 "2" "2" ""]
-	ElementLine [0 -10000 0 0 1000]
-	ElementLine [0 -30000 0 -20000 1000]
-	ElementLine [0 -10000 -5000 -20000 1000]
-	ElementLine [-5000 -20000 5000 -20000 1000]
-	ElementLine [5000 -20000 0 -10000 1000]
-	ElementLine [-5000 -10000 5000 -10000 1000]
-
-	)
-
-Element["" "AXIAL_LAY 400" "C3" "~150n" 180000 480000 32000 5300 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
-	Pin[40000 0 5500 3000 6100 3000 "2" "2" "edge2"]
-	ElementLine [0 0 10000 0 1000]
-	ElementLine [30000 0 40000 0 1000]
-	ElementLine [10000 -3300 30000 -3300 1000]
-	ElementLine [30000 -3300 30000 3300 1000]
-	ElementLine [30000 3300 10000 3300 1000]
-	ElementLine [10000 3300 10000 -3300 1000]
-
-	)
-
-Element["" "AXIAL_LAY 300" "R1" "100k" 240000 480000 4500 -24500 1 100 ""]
+Element["" "AXIAL_LAY 300" "R1" "100k" 190000 480000 4500 -24500 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -932,7 +896,7 @@ Element["" "AXIAL_LAY 300" "R1" "100k" 240000 480000 4500 -24500 1 100 ""]
 
 	)
 
-Element["" "AXIAL_LAY 300" "C4" ">47n" 250000 480000 4500 -24500 1 100 ""]
+Element["" "AXIAL_LAY 300" "C4" ">47n" 200000 480000 4500 -24500 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -950,7 +914,76 @@ Element["" "AXIAL_LAY 300" "C4" ">47n" 250000 480000 4500 -24500 1 100 ""]
 
 	)
 
-Element["" "HEADER2_1" "CONN3" "-" 310000 470000 -5000 -21000 0 100 ""]
+Element["" "TO92" "Q1" "unknown" 220000 460000 13000 1000 3 100 ""]
+(
+	Attribute("device" "2N3904")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0 20000 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 0 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "AXIAL_LAY 300" "C5" "~1n" 240000 480000 4500 -24500 1 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
+	Pin[0 -30000 5500 3000 6100 3000 "2" "2" ""]
+	ElementLine [0 -7500 0 0 1000]
+	ElementLine [0 -30000 0 -22500 1000]
+	ElementLine [-2500 -22500 -2500 -7500 1000]
+	ElementLine [-2500 -22500 2500 -22500 1000]
+	ElementLine [2500 -22500 2500 -7500 1000]
+	ElementLine [-2500 -7500 2500 -7500 1000]
+
+	)
+
+Element["" "DIODE_LAY 300" "D2" "-" 150000 470000 -22000 5000 2 100 ""]
+(
+	Attribute("device" "DIODE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0 0 5000 3000 5600 2000 "1" "1" "square,edge2"]
+	Pin[-30000 0 5000 3000 5600 2000 "2" "2" "edge2"]
+	ElementLine [-10000 0 0 0 1000]
+	ElementLine [-30000 0 -20000 0 1000]
+	ElementLine [-10000 0 -20000 5000 1000]
+	ElementLine [-20000 -5000 -20000 5000 1000]
+	ElementLine [-20000 -5000 -10000 0 1000]
+	ElementLine [-10000 -5000 -10000 5000 1000]
+
+	)
+
+Element["" "AXIAL_LAY 400" "C3" "~150n" 180000 440000 -5300 32000 3 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
+	Pin[0 40000 5500 3000 6100 3000 "2" "2" ""]
+	ElementLine [0 0 0 10000 1000]
+	ElementLine [0 30000 0 40000 1000]
+	ElementLine [3300 10000 3300 30000 1000]
+	ElementLine [-3300 30000 3300 30000 1000]
+	ElementLine [-3300 10000 -3300 30000 1000]
+	ElementLine [-3300 10000 3300 10000 1000]
+
+	)
+
+Element["" "HEADER2_1" "CONN3" "-" 260000 470000 -5000 -21000 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -967,65 +1000,39 @@ Element["" "HEADER2_1" "CONN3" "-" 310000 470000 -5000 -21000 0 100 ""]
 	ElementLine [-5000 -5000 5000 -5000 1000]
 
 	)
-
-Element["" "TO92" "Q1" "unknown" 270000 460000 13000 1000 3 100 ""]
-(
-	Attribute("device" "2N3904")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 20000 7200 3000 7800 4200 "1" "1" "square"]
-	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
-	Pin[0 0 7200 3000 7800 4200 "3" "3" ""]
-	ElementLine [7000 3000 7000 17000 1000]
-	ElementArc [0 10000 10000 10000 225 270 1000]
-
-	)
-
-Element["" "AXIAL_LAY 300" "C5" "~1n" 290000 480000 4500 -24500 1 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
-	Pin[0 -30000 5500 3000 6100 3000 "2" "2" ""]
-	ElementLine [0 -7500 0 0 1000]
-	ElementLine [0 -30000 0 -22500 1000]
-	ElementLine [-2500 -22500 -2500 -7500 1000]
-	ElementLine [-2500 -22500 2500 -22500 1000]
-	ElementLine [2500 -22500 2500 -7500 1000]
-	ElementLine [-2500 -7500 2500 -7500 1000]
-
-	)
-Rat[100000 480000 1 110000 480000 1  ""]
-Rat[100000 480000 1 80000 470000 1  ""]
-Rat[110000 480000 1 220000 480000 1  ""]
-Rat[220000 480000 1 240000 480000 1  ""]
-Rat[240000 480000 1 250000 480000 1  ""]
-Rat[250000 480000 1 270000 480000 1  ""]
-Rat[270000 480000 1 290000 480000 1  ""]
-Rat[290000 480000 1 310000 470000 1  ""]
-Rat[100000 450000 1 80000 460000 1  ""]
-Rat[100000 450000 1 160000 450000 1  ""]
-Rat[180000 480000 1 170000 480000 1  ""]
-Rat[180000 480000 1 240000 450000 1  ""]
-Rat[240000 450000 1 250000 450000 1  ""]
-Rat[250000 450000 1 270000 470000 1  ""]
-Rat[290000 450000 1 310000 460000 1  ""]
-Rat[290000 450000 1 270000 460000 1  ""]
-Rat[120000 450000 1 110000 450000 1  ""]
-Rat[120000 450000 1 170000 450000 1  ""]
 Layer(1 "component")
 (
+	Line[80000 460000 90000 450000 2500 2000 "clearline"]
+	Line[90000 450000 100000 450000 2500 2000 "clearline"]
+	Line[100000 450000 110000 440000 2500 2000 "clearline"]
+	Line[110000 440000 120000 450000 2500 2000 "clearline"]
+	Line[120000 450000 150000 450000 2500 2000 "clearline"]
+	Line[150000 450000 160000 460000 2500 2000 "clearline"]
+	Line[110000 450000 120000 460000 2500 2000 "clearline"]
+	Line[120000 460000 120000 470000 2500 2000 "clearline"]
+	Line[80000 470000 90000 480000 2500 2000 "clearline"]
+	Line[150000 470000 160000 470000 2500 2000 "clearline"]
+	Line[160000 470000 170000 460000 2500 2000 "clearline"]
+	Line[170000 460000 170000 450000 2500 2000 "clearline"]
+	Line[170000 450000 180000 440000 2500 2000 "clearline"]
+	Line[180000 440000 190000 450000 2500 2000 "clearline"]
+	Line[190000 450000 200000 450000 2500 2000 "clearline"]
+	Line[200000 450000 220000 470000 2500 2000 "clearline"]
+	Line[220000 460000 230000 450000 2500 2000 "clearline"]
+	Line[90000 480000 250000 480000 2500 2000 "clearline"]
+	Line[250000 480000 260000 470000 2500 2000 "clearline"]
+	Line[230000 450000 250000 450000 2500 2000 "clearline"]
+	Line[250000 450000 260000 460000 2500 2000 "clearline"]
 )
 Layer(2 "solder")
 (
 )
 Layer(3 "outline")
 (
+	Line[10000 490000 280000 490000 1000 2000 "clearline"]
+	Line[280000 490000 280000 350000 1000 2000 "clearline"]
+	Line[280000 350000 10000 350000 1000 2000 "clearline"]
+	Line[10000 350000 10000 490000 1000 2000 "clearline"]
 )
 Layer(4 "silk")
 (
