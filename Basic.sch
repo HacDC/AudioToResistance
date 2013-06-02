@@ -17,7 +17,7 @@ refdes=C4
 T 41800 48300 5 10 0 1 90 0 1
 symversion=0.1
 T 42700 48200 5 10 1 1 90 0 1
-value=>47n
+value=~47n
 T 42700 48100 5 10 0 0 0 0 1
 description=Avoid electrolytics. Look for the orange drops.
 T 42700 48100 5 10 0 0 0 0 1
@@ -48,6 +48,8 @@ T 45200 48100 5 10 1 1 90 0 1
 value=~1n
 T 45200 48000 5 10 0 0 0 0 1
 footprint=AXIAL_LAY 300
+T 45200 48000 5 10 0 0 0 0 1
+description=Avoid electrolytics. Look for ceramic disk capacitors.
 }
 C 28700 48800 1 180 0 connector2-1.sym
 {
@@ -98,6 +100,8 @@ T 43800 48500 5 10 1 1 0 0 1
 refdes=Q1
 T 43700 48100 5 10 0 0 0 0 1
 footprint=TO92
+T 42900 48000 5 10 0 0 0 0 1
+value=-
 }
 N 42900 49000 42900 48500 4
 C 34300 49000 1 270 0 diode-3.sym
@@ -165,7 +169,7 @@ refdes=C1
 T 32300 48300 5 10 0 1 90 0 1
 symversion=0.1
 T 33200 48200 5 10 1 1 90 0 1
-value=>47n
+value=~47n
 T 33200 48100 5 10 0 0 0 0 1
 description=Avoid electrolytics. Look for the orange drops.
 T 33200 48100 5 10 0 0 0 0 1

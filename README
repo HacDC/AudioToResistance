@@ -4,13 +4,19 @@ See license.txt for AudioToResistance license conditions.
 
 mirage335-site.dyndns.org
 
+All parts can be found at HacDC. Please drop by!
+
+hacdc.org
+
 __Usage__
 Audio in at CONN1, audio transformer between CONN1 and CONN2, on/off switching at CONN3. Useful for Push-To-Talk systems.
 
 __Design__
-Placing a 1nF capacitor at input to D1 prevents stray rectification. Use of appropriately valued non-polarized capacitors maximizes VHF/UHF suppression.
-
-Ideally T1 should be a step up transformer.
+Placing a 47nF capacitor (C1) at input to diodes prevents stray rectification.
+Use of appropriately valued non-polarized capacitors maximizes VHF/UHF suppression.
+Transformer T1 prevents stray rectification problems, particularly those in the radio itself. It should be a step up transformer, but may not be necessary in some cases.
+NPN transistor offers superior characteristics for driving CMOS inputs. Most TO92 case enhancement mode N-Channel JFETs are pin compatible for other applications.
+Transistor will be switched on and off repeatedly from villard cascade ripple. When driving CMOS inputs with pull up resistors, capacitor C5 will smooth this ripple. However, in other applications where a JFET may be used, a peak detector following the voltage multiplier will eliminate ripple, at the cost of higher input drive requirements.
 
 __Copyright__
 This file is part of AudioToResistance.
